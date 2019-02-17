@@ -1,4 +1,7 @@
 <template>
+<!-- 2.5 hrs + 1 hr = code set + deploy heroku
+dashboard design= 2 hrs
+tt managmnt = 2hrs -->
     <div>
         <nav-bar></nav-bar>
         <h1>Welcome to dashboard</h1> <h3>{{this.username}} !!</h3>
@@ -136,4 +139,6 @@ a:hover{
         /* padding: 2%; */
     }
 </style>
+
+
 
