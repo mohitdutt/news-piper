@@ -9,15 +9,16 @@ import { store } from './store';
 import VueResource from 'vue-resource';
 import { VueSpinners } from '@saeris/vue-spinners'
 import VeeValidate from 'vee-validate';
+import VueFlashMessage from 'vue-flash-message';
 Vue.use(VeeValidate);
 
 
 Vue.use(VueSpinners)
 
 Vue.use(VueResource);
-import VueFlashMessage from 'vue-flash-message';
+
 Vue.use(VueFlashMessage);
-require('vue-flash-message/dist/vue-flash-message.min.css');
+// require('vue-flash-message/dist/vue-flash-message.min.css');
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
